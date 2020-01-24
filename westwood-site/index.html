@@ -8,11 +8,14 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Bare - Start Bootstrap Template</title>
+  <title>R. Westwood & Son Electrics</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+  <link href="assets/westwood-styles.css" rel="stylesheet">
 
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -20,14 +23,14 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Start Bootstrap</a>
+      <a class="navbar-brand" href="/index.html"><img class="westwood-logo" src="../assets/westwood-logo.svg"> </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home
+            <a class="nav-link" href="/index.html">Home
               <span class="sr-only">(current)</span>
             </a>
           </li>
@@ -45,19 +48,68 @@
     </div>
   </nav>
 
-  <!-- Page Content -->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h1 class="mt-5">A Bootstrap 4 Starter Template</h1>
-        <p class="lead">Complete with pre-defined file paths and responsive navigation!</p>
-        <ul class="list-unstyled">
-          <li>Bootstrap 4.3.1</li>
-          <li>jQuery 3.4.1</li>
-        </ul>
-      </div>
+<!-- Page Content -->
+<div class="container pt-2">
+  <div class="row">
+      <!-- Trial information -->
+      <div class="col-xs-12 col-md-9 header-right">
+        <ul class="top-info-box">
+          <li>
+            <div class="info-box">
+              <div class="info-box-content">
+                <p class="info-box-title">Call Us</p>
+                <p class="info-box-subtitle">(+9) 847-291-4353</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="info-box">
+              <div class="info-box-content">
+                <p class="info-box-title">Email Us</p>
+                <p class="info-box-subtitle">office@Constra.com</p>
+              </div>
+            </div>
+          </li>
+          <li class="last">
+            <div class="info-box last">
+              <div class="info-box-content">
+                <p class="info-box-title">Global Certificate</p>
+                <p class="info-box-subtitle">ISO 9001:2017</p>
+              </div>
+            </div>
+          </li>
+          <li class="header-get-a-quote">
+            <a class="btn btn-primary" href="contact.html">Get A Quote</a>
+          </li>
+        </ul><!-- Ul end -->
+      </div><!-- header right end -->
+  </div><!-- Row end -->
+</div>
+
+
+  <!-- Heading Row -->
+  <div class="row align-items-center my-5">
+    <div class="col-lg-7">
+      <img class="img-fluid rounded mb-4 mb-lg-0" src="http://placehold.it/900x400" alt="">
     </div>
+    <!-- /.col-lg-8 -->
+    <div class="col-lg-5">
+      <h1 class="font-weight-light">Business Name or Tagline</h1>
+      <p>This is a template that is great for small businesses. It doesn't have too much fancy flare to it, but it makes a great use of the standard Bootstrap core components. Feel free to use this template for any project you want!</p>
+      <a class="btn btn-primary" href="#">Call to Action!</a>
+    </div>
+    <!-- /.col-md-4 -->
   </div>
+  <!-- /.row -->
+</div>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.slim.min.js"></script>

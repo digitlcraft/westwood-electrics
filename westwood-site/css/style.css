@@ -3582,13 +3582,16 @@ h3 {
   right: 0;
   top: 0;
   height: 100%;
-  background-image: url(../img/work/work.jpg);
-  background-size: cover;
+  background-image: url(http://www.checkatrade.com/Reputation/ApiChart/RWestwoodAndSonElectrics.png);
+  background-size: contain;
   background-position: center center;
   -webkit-border-radius: 20px 0 0 20px;
   -moz-border-radius: 20px 0 0 20px;
   border-radius: 20px 0 0 20px;
+  background-repeat: no-repeat;
+  background-color: #f7f7f7;;
 }
+
 
 @media (max-width: 767px) {
   /* line 21, ../../Arafath/CL/December/233. Startup/HTML/scss/_work.scss */

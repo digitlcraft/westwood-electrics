@@ -1750,7 +1750,7 @@ h3 {
 /* line 4, ../../Arafath/CL/December/233. Startup/HTML/scss/_about.scss */
 .about_area_2::before {
   content: '';
-  background-image: url(../img/about/about2.jpg);
+  background-image: url(../img/about/map-service-area.jpg);
   left: 0;
   top: 0;
   height: 100%;
@@ -1875,9 +1875,23 @@ h3 {
   margin-bottom: 54px;
 }
 
+/* line 46, ../../Arafath/CL/December/233. Startup/HTML/scss/_about.scss */
+.about_area_2 .section_title h3 {
+  margin-top: 25px;
+  margin-bottom: 54px;
+}
+
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 46, ../../Arafath/CL/December/233. Startup/HTML/scss/_about.scss */
   .about_area .section_title h3 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 46, ../../Arafath/CL/December/233. Startup/HTML/scss/_about.scss */
+  .about_area_2 .section_title h3 {
     font-size: 35px;
     margin-bottom: 20px;
   }
@@ -1907,8 +1921,24 @@ h3 {
   margin-bottom: 14px;
 }
 
+/* line 58, ../../Arafath/CL/December/233. Startup/HTML/scss/_about.scss */
+.about_area_2 .section_title .mid_text {
+  color: #C9C9C9;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 14px;
+}
+
 /* line 64, ../../Arafath/CL/December/233. Startup/HTML/scss/_about.scss */
 .about_area .section_title .last_text {
+  color: #C9C9C9;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 44px;
+}
+
+/* line 64, ../../Arafath/CL/December/233. Startup/HTML/scss/_about.scss */
+.about_area_2 .section_title .last_text {
   color: #C9C9C9;
   font-size: 18px;
   font-weight: 400;
@@ -2296,7 +2326,7 @@ h3 {
 
 /* line 7, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .breadcam_bg_3 {
-  background-image: url(../img/banner/bradcam_3.png);
+  background-image: url(../img/banner/about_banner.jpg);
 }
 
 /* line 10, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
@@ -2779,6 +2809,26 @@ h3 {
   margin-bottom: 30px;
   margin-top: 12px;
 }
+
+
+.padded_area {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 767px) {
+.padded_area {
+  padding-top: 5px;
+  padding-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .padded_area {
+    padding-top: 5px;
+    padding-bottom: 30px;
+    }
+  }
 
 /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_service.scss */
 .service_area {

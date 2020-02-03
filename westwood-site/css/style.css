@@ -26,6 +26,19 @@ body {
   width: 50%;
 }
 
+@media (max-width: 767px) {
+  .img-half {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .img-half {
+    width: 100%;
+  }
+}
+
+
 /* Gallery styles */
 .gallery {
   display: grid;
@@ -3713,7 +3726,7 @@ h3 {
   right: 0;
   top: 0;
   height: 100%;
-  background-image: url(http://www.checkatrade.com/Reputation/ApiChart/RWestwoodAndSonElectrics.png);
+  background-image: url(test);
   background-size: contain;
   background-position: center center;
   -webkit-border-radius: 20px 0 0 20px;
